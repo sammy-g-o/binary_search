@@ -1,6 +1,9 @@
-"""binary search"""
+"""This is a binary search algorithm
 
-print('enter values for the list')
+It will accept a range of two values
+Then searches through it to find the key
+"""
+
 
 # code by Giwa Abdulsamad
 
@@ -35,6 +38,3 @@ def search(arrays, key):
         elif arrays[midd] == key:
             print(f"{key} is in index {midd}")
             break
-
-list_of_num = (range(int(input()),int(input()))) #type is generator object
-search(arrays=list_of_num, key=int(input('Enter key: ')))
