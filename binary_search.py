@@ -13,7 +13,7 @@ def search(arrays, key):
     it goes through the given list and searches for the given key
 
     Args:
-        arrays (list): range of integers
+        arrays (range): range of integers
         key (int): target number
     """
     beg = 0
